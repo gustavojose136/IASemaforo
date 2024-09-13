@@ -11,23 +11,11 @@ Os **Semáforos Inteligentes** representam uma evolução na gestão do tráfego
 
 ### Requisitos Funcionais (RF)
 
-1. **Monitoramento de tráfego em tempo real**: O sistema deve capturar e processar informações de tráfego em tempo real por meio de câmeras e sensores.
-   
-2. **Ajuste dinâmico de semáforos**: A Inteligência Artificial (IA) deve ajustar automaticamente o tempo dos semáforos com base no fluxo de veículos.
+1. **Foto**: O sistema deve tirar a foto dos veículos para o calculo.
 
-3. **Detecção de infrações de trânsito**: O sistema deve detectar infrações como a ultrapassagem de sinais vermelhos.
+2. **Cálculo**: A IA deve calcular o tempo de acordo com movimentação dos veículos.
 
-4. **Envio de dados à nuvem**: Os dispositivos de borda devem processar os dados localmente e enviar informações relevantes para a nuvem.
-
-5. **Integração com infraestrutura urbana**: O sistema deve se integrar com outras infraestruturas urbanas por meio de APIs RESTful.
-
-6. **Interface para operadores**: Deve existir uma interface interativa (dashboard) para os operadores monitorarem o tráfego e ajustarem manualmente os semáforos.
-
-7. **Relatórios e análises**: O sistema deve gerar relatórios em formatos como PDF e CSV com base nos dados coletados.
-
-8. **Armazenamento de dados**: O sistema deve armazenar dados de tráfego estruturados no DynamoDB e imagens no S3.
-
-9. **Processamento em tempo real na nuvem**: Funções na nuvem devem ser executadas em tempo real para otimizar o tráfego.
+3. **Mudança de Sinal**: O semáforo deve mudar de sinal ao calcular o tempo com IA.
 
 ### Requisitos Não Funcionais (RNF)
 
@@ -48,6 +36,24 @@ Os **Semáforos Inteligentes** representam uma evolução na gestão do tráfego
 8. **Manutenibilidade**: O sistema deve ser modular, permitindo atualizações e manutenção dos componentes sem interromper seu funcionamento.
 
 9. **Disponibilidade**: O sistema deve ter alta disponibilidade, utilizando redundância de servidores e sistemas de failover na nuvem para garantir que os serviços estejam sempre acessíveis.
+
+10. **Monitoramento de tráfego em tempo real**: O sistema deve capturar e processar informações de tráfego em tempo real por meio de câmeras e sensores.
+   
+11. **Ajuste dinâmico de semáforos**: A Inteligência Artificial (IA) deve ajustar automaticamente o tempo dos semáforos com base no fluxo de veículos.
+
+12. **Detecção de infrações de trânsito**: O sistema deve detectar infrações como a ultrapassagem de sinais vermelhos.
+
+13. **Envio de dados à nuvem**: Os dispositivos de borda devem processar os dados localmente e enviar informações relevantes para a nuvem.
+
+14. **Integração com infraestrutura urbana**: O sistema deve se integrar com outras infraestruturas urbanas por meio de APIs RESTful.
+
+15. **Interface para operadores**: Deve existir uma interface interativa (dashboard) para os operadores monitorarem o tráfego e ajustarem manualmente os semáforos.
+
+16. **Relatórios e análises**: O sistema deve gerar relatórios em formatos como PDF e CSV com base nos dados coletados.
+
+17. **Armazenamento de dados**: O sistema deve armazenar dados de tráfego estruturados no DynamoDB e imagens no S3.
+
+18. **Processamento em tempo real na nuvem**: Funções na nuvem devem ser executadas em tempo real para otimizar o tráfego.
 
 ## Arquitetura do Sistema
 
