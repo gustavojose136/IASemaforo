@@ -111,6 +111,11 @@ A arquitetura do sistema é baseada em **IoT (Internet of Things)**, combinando 
 - **Dash** para desenvolvimento de dashboards interativos.
 - ![Semáforo Inteligente](./Assets/Esquema.png)
 
+## Projeto Tinker 
+
+- https://www.tinkercad.com/things/42ysciXCpOJ-semaforo-inteligente/editel
+
+
 
 ## Licença
 
